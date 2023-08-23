@@ -23,7 +23,7 @@ app.get('/add-product', (req,res)=> {
         brand_name:"apple",
         price:"98000",
         product_name:"iphone 14 pro max",
-        stock:"25"
+        stock:"35"
     });
 
     product.save()
